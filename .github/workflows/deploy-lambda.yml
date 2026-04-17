@@ -24,7 +24,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.OIDC_ROLE_TO_ASSUME }}
-          aws-region: us-east-2
+          aws-region: ${{ secrets.AWS_REGION }}
       
       - name: Set up Python
         uses: actions/setup-python@v4
