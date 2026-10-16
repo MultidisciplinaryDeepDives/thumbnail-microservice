@@ -19,5 +19,5 @@ crash.log
 .vscode/
 .idea/
 
-# OS 
+# OS
 .DS_Store
